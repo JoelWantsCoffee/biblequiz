@@ -1,0 +1,29 @@
+@import url('./src/fluent-light.css')
+
+$font-stack: 'Inter', sans-serif
+$font-mono: 'JetBrains Mono'
+
+body 
+    @apply bg-flu-50
+
+.content
+    p
+        @apply my-2
+
+    a
+        @apply underline
+
+    h1
+        @apply text-2xl font-bold mb-4
+    
+    h2
+        @apply text-lg font-bold mt-6 mb-4
+    
+    li
+        @apply list-decimal ml-5
+
+    code
+        @apply rounded-md border border-flu-200 my-4
+    
+    .katex-display
+        @apply my-6
